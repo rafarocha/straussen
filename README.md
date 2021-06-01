@@ -23,7 +23,7 @@ kmax 2^10 : time 30763
 ```
 
 ```shell
-java -jar straussen.jar
+# java -jar straussen.jar
 inside JAR file: sample1
 k_max 10 : r 1 : interval 150 250
 
