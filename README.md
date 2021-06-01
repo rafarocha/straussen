@@ -37,3 +37,6 @@ kmax 2^08 : time 42
 kmax 2^09 : time 214
 kmax 2^10 : time 2922
 ```
+
+### results
+on wiki https://github.com/rafarocha/straussen/wiki
