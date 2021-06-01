@@ -2,9 +2,12 @@
 comparison of the straussen algorithm, on matrix multiplication, with the naive, for large matrices
 
 ### how to run
-- java -jar <arquivo.jar> <algorithm> <filename> 
+- `java -jar <arquivo.jar> <algorithm> <sample>`
+- `java -jar straussen.jar straussen sample1`
+- `java -jar straussen.jar straussen -f ~/.externalfile`
+
 ```shell
-java -jar straussen.jar straussen file
+# java -jar straussen.jar straussen sample1
 kmax = 10, r = 1, interval 150 250
 
 starting ... 
