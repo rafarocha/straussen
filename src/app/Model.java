@@ -21,9 +21,9 @@ public class Model {
 		kmax( kmax ).r( r ).interval( interval );
 	}
 	
-	public static Model create() {
+	public static Model create(String filename) {
 		try {
-			String file = "src/app/file";
+			String file = "src/app/".concat( filename );
 			BufferedReader reader = new BufferedReader(new FileReader(file));
 			String kmax;
 			kmax = reader.readLine();
